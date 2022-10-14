@@ -1,0 +1,14 @@
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: 0;
+  }
+
+.b1{height: 100rpx;display: flex;align-items: center;justify-content: center;margin: 500rpx 0 0 0;font-size: 40rpx;}
+
+.b2{width: 100%;height: 100rpx;display: flex;align-items: center;justify-content: center;margin: 100rpx;font-size: 40rpx;}
+
+.b3{width: 100%;height: 100rpx;display: flex;align-items: center;justify-content: center;margin: 100rpx;font-size: 40rpx;}

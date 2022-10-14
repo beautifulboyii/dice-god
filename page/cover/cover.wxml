@@ -1,0 +1,10 @@
+<view class="content">
+
+<image class="background" src="../../image/1.jpeg" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 0rpx"></image>
+
+
+<button class="b1" bindtap="tolocal"> 本地对战 </button>
+<button class="b2" bindtap="toAI"> AI对战 </button>
+
+
+</view>

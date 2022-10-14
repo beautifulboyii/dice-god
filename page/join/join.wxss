@@ -1,0 +1,33 @@
+page{background: rgb(237, 243, 237);}
+
+.title{width: 100%;display: flex;align-items: center;justify-content: center;margin-top: 25rpx;font-size: 34rpx;}
+
+.gobang{width: 500rpx;height: 400rpx;margin: 30rpx 190rpx;float: left;
+  position: relative;}
+
+.gobang>view{width: 25%;height: 32.5%;float: left;display: flex;align-content: center;justify-content: center;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+border-top: 1px solid #333;
+  background: #F0BF7C;}
+
+.i1{width: 100rpx;height: 100rpx;margin:-100rpx 0rpx 0rpx 50rpx;}
+
+.gobang2{width: 500rpx;height: 400rpx;margin: 0rpx 190rpx;float: left;
+    position: relative;}
+    
+.gobang2>view{width: 25%;height: 32.5%;float: left;display: flex;align-content: center;justify-content: center;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+border-top: 1px solid #333;
+background: #F0BF7C;}
+
+.piece{background: rgba(34, 33, 33, 0);width:100%;height: 100%;transition: background 0.1s;
+position: relative;}
+
+.white{background:#fff;}
+.black{background:#000000;}
+
+.s1{font-size:70rpx;margin:43rpx 45rpx 0rpx 0rpx;position: relative;}

@@ -1,0 +1,36 @@
+<view class="title">
+  {{'轮到了：'+(side?'2号':'1号')}}
+</view>
+
+<view class="gobang">
+  <view wx:for="{{detail1}}" wx:key="w" data-index="{{w}}">
+    <view class="s1" wx:if="{{item.type==1}}"><image class="i1" src="../../image/dice1.png"></image></view>
+  <view class="s1" wx:if="{{item.type==2}}"><image class="i1" src="../../image/dice2.png"></image></view>
+  <view class="s1" wx:if="{{item.type==3}}"><image class="i1" src="../../image/dice3.png"></image></view>
+  <view class="s1" wx:if="{{item.type==4}}"><image class="i1" src="../../image/dice4.png"></image></view>
+  <view class="s1" wx:if="{{item.type==5}}"><image class="i1" src="../../image/dice5.png"></image></view>
+  <view class="s1" wx:if="{{item.type==6}}"><image class="i1" src="../../image/dice6.png"></image></view>
+  </view>
+</view>
+
+<button class="start" bindtap="reset">
+        重新开始
+</button>
+
+<view class="picture">
+  <image class="i1" src="{{imgsrc}}"></image>
+  </view>
+  
+<view class="gobang2">
+  <view wx:for="{{detail2}}" wx:key="index" bindtap="{{defeat || item.type > 0?'':'palyclass2'}}" data-index="{{index}}">
+  <view class="s1" wx:if="{{item.type==1}}"><image class="i1" src="../../image/dice1.png"></image></view>
+  <view class="s1" wx:if="{{item.type==2}}"><image class="i1" src="../../image/dice2.png"></image></view>
+  <view class="s1" wx:if="{{item.type==3}}"><image class="i1" src="../../image/dice3.png"></image></view>
+  <view class="s1" wx:if="{{item.type==4}}"><image class="i1" src="../../image/dice4.png"></image></view>
+  <view class="s1" wx:if="{{item.type==5}}"><image class="i1" src="../../image/dice5.png"></image></view>
+  <view class="s1" wx:if="{{item.type==6}}"><image class="i1" src="../../image/dice6.png"></image></view>
+  </view>
+</view>
+
+
+
